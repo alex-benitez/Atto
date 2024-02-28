@@ -27,7 +27,7 @@ angular_v = 2*pi*(3*10**8)/(800*10**(-9)) # Most formulas use angular velocity, 
 charge = -1.602176*10**(-19) # Coulombs
 mass = 9.1093837*10**(-31) # Kg
 E_0 = 1 # V/m
-phase = 0 # Radians
+phase = 0.5 # Radians
 
 
 '''
@@ -84,7 +84,7 @@ for i in range(3):
     axs[i].grid()
 
 
-plt.savefig('/home/alex/Desktop/Python/Amelle/Plots/{}.png'.format('electrontraj'),dpi=400) 
+plt.savefig('/home/alex/Desktop/Python/Atto/Plots/{}.png'.format('electrontrajphase.jpg'),dpi=400) 
 
 # plt.plot(time,energy)
 
