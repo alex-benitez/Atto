@@ -52,5 +52,26 @@ Additionally you can add phase to the trajectory, and get a slightly different g
 
 The next logical step is to create a distribution of electrons exiting the nucleus at a given phase, and use that to plot the graph of possible positions.
 
+After tweaking the colours around to make the graph more readable, I arrived at the following plot, this is very close to the plot found in the thomas siegel thesis which as a good sign.
 
+\begin{figure}[h!btp]
+\centering
+
+\includegraphics[width=0.85\linewidth]{../Plots/Electrondistance.png}
+\textbf{\caption{Electron displacement as a function of initial phase to the electric field (more purple values have higher peak kinetic energy)}}
+\centering
+\end{figure}
+
+\pagebreak
+
+The next logical step of course was to plot the kinetic energy with respect to phase. After some extra calculations and making the code far more efficient (unnecessary but I learnt quite a bit of numpy along the way).
+\begin{figure}[h!btp]
+\centering
+
+\includegraphics[width=0.85\linewidth]{../Plots/kineticplot.png}
+\textbf{\caption{Kinetic Energy of the electron as a function of initial phase with respect to an electric field}}
+\centering
+\end{figure}
+
+I should probably change the colour scheme becaus it looks pretty but isn't as clear as other similar graphs; I'll ask Ben how he did it.
 \end{document}

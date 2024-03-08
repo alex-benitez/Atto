@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.2.28)  28 FEB 2024 17:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.2.28)  8 MAR 2024 15:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**main.tex
-(./main.tex
+**InternshipProgress.tex
+(./InternshipProgress.tex
 LaTeX2e <2021-11-15> patch level 1
 L3 programming layer <2022-01-21>
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
@@ -220,8 +220,8 @@ File: l3backend-pdftex.def 2022-01-12 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count272
 \l__pdf_internal_box=\box51
 )
-(./main.aux)
-\openout1 = `main.aux'.
+(./InternshipProgress.aux)
+\openout1 = `InternshipProgress.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
 LaTeX Font Info:    ... okay on input line 22.
@@ -241,7 +241,8 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 22.
 LaTeX Font Info:    ... okay on input line 22.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 22.
 LaTeX Font Info:    ... okay on input line 22.
- (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count273
 \scratchdimen=\dimen158
@@ -322,9 +323,9 @@ LaTeX Info: Redefining \ref on input line 22.
 LaTeX Info: Redefining \pageref on input line 22.
 LaTeX Info: Redefining \nameref on input line 22.
 
-(./main.out) (./main.out)
+(./InternshipProgress.out) (./InternshipProgress.out)
 \@outlinefile=\write3
-\openout3 = `main.out'.
+\openout3 = `InternshipProgress.out'.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <12> on input line 24.
@@ -349,18 +350,30 @@ File: electrontrajphase.png Graphic file (type png)
 <use electrontrajphase.png>
 Package pdftex.def Info: electrontrajphase.png  used on input line 48.
 (pdftex.def)             Requested size: 411.93767pt x 274.63766pt.
- [2 <./electrontrajphase.png>] (./main.aux)
-Package rerunfilecheck Info: File `main.out' has not changed.
+<../Plots/Electrondistance.png, id=26, 505.89pt x 397.485pt>
+File: ../Plots/Electrondistance.png Graphic file (type png)
+<use ../Plots/Electrondistance.png>
+Package pdftex.def Info: ../Plots/Electrondistance.png  used on input line 60.
+(pdftex.def)             Requested size: 368.57964pt x 289.60364pt.
+ [2 <./electrontrajphase.png> <../Plots/Electrondistance.png>]
+<../Plots/kineticplot.png, id=35, 686.565pt x 614.295pt>
+File: ../Plots/kineticplot.png Graphic file (type png)
+<use ../Plots/kineticplot.png>
+Package pdftex.def Info: ../Plots/kineticplot.png  used on input line 71.
+(pdftex.def)             Requested size: 368.57964pt x 329.77406pt.
+ [3 <../Plots/kineticplot.png>]
+(./InternshipProgress.aux)
+Package rerunfilecheck Info: File `InternshipProgress.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 8971 strings out of 480204
- 140923 string characters out of 5895010
- 439297 words of memory out of 5000000
- 26825 multiletter control sequences out of 15000+600000
+ 8989 strings out of 480204
+ 141607 string characters out of 5895010
+ 439367 words of memory out of 5000000
+ 26837 multiletter control sequences out of 15000+600000
  473375 words of font info for 42 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 60i,7n,63p,616b,321s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,7n,63p,630b,321s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texl
@@ -371,10 +384,10 @@ type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
 ublic/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
 sfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmtt10.pfb>
-Output written on main.pdf (2 pages, 438504 bytes).
+Output written on InternshipProgress.pdf (3 pages, 1460076 bytes).
 PDF statistics:
- 76 PDF objects out of 1000 (max. 8388607)
- 47 compressed objects within 1 object stream
- 6 named destinations out of 1000 (max. 500000)
- 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 88 PDF objects out of 1000 (max. 8388607)
+ 54 compressed objects within 1 object stream
+ 9 named destinations out of 1000 (max. 500000)
+ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
 
